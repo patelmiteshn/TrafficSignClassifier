@@ -1,0 +1,6 @@
+model_checkpoint_path: "LeNet.ckpt-199"
+all_model_checkpoint_paths: "LeNet.ckpt-195"
+all_model_checkpoint_paths: "LeNet.ckpt-196"
+all_model_checkpoint_paths: "LeNet.ckpt-197"
+all_model_checkpoint_paths: "LeNet.ckpt-198"
+all_model_checkpoint_paths: "LeNet.ckpt-199"

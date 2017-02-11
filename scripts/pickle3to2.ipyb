@@ -1,0 +1,18 @@
+import pickle
+import numpy as np
+
+training_file = '../traffic-signs-data/train.p'
+testing_file = '../traffic-signs-data/test.p'
+
+training_file_save = '../traffic-signs-data/train2.p'
+testing_file_save = '../traffic-signs-data/test2.p'
+
+with open(training_file, mode='rb') as f:
+    train = pickle.load(f)
+with open(testing_file, mode='rb') as f:
+    test = pickle.load(f)
+
+with open(training_file_save, mode='wb') as f:
+    pickle.dump(train,f,2)
+with open(testing_file_save, mode='wb') as f:
+    pickle.dump(test,f,2)
